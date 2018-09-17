@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("../image/alphabets-ancient-box-529926.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box {
+    width: 0;
+    height: 0;
+    position: absolute;
+    padding-left: 25px;
+    top: 33%;
+    left: 48%;
+    background-color: #4747474d;
+    border: 1px solid #c69246;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px #c69246;
+}
+h1 {
+    text-align: center;
+    color: #c69246;
+    text-shadow: 0 0 5px #c69246;
+}
+.box label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #c69246;
+    font-size: 19px;
+}
+.box input {
+    width: 275px;
+    height: 25px;
+    background: transparent;
+    outline: none;
+    border: 1px solid #c69246;
+    color: #c69246;
+    padding-left: 5px;
+    letter-spacing: 2px;
+}
+.box input[type="submit"] {
+    margin:  27px 86px;
+    width: 100px;
+    height: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .3s ease-in-out;
+}
+.box input[type="submit"]:hover {
+    background: #c6934679;
+    color: #ffffff;
+    cursor: pointer;
+}
